@@ -15,6 +15,6 @@ def get_advice():
         print(object_advice.phrase_advice)
         return object_advice
     else:
-        print(f"Falha na requisição. Código de status: {request.status_code}")
+        print(f"request falied: {request.status_code}")
         return None
 
